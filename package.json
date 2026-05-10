@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Modern Anime Streaming & Recommendation Platform",
   "scripts": {
+    "test": "echo \"No tests yet\"",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd backend && npm run dev",
     "client": "cd frontend && npm start",
